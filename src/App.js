@@ -1,5 +1,5 @@
 import React from "react";
-import Todo from "./components/Todo";
+import Todo from "./components/Todo/Todo";
 import styles from './App.module.css'
 
 class App extends React.Component {

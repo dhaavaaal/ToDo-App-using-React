@@ -1,7 +1,7 @@
-import Card from "../UI/Card";
-import TodoAddButton from "./TodoAddButton";
-import TodoContent from "./TodoContent";
-import TodoDate from "./TodoDate";
+import Card from "../../UI/Card";
+import TodoAddButton from "../TodoAddButton/TodoAddButton";
+import TodoContent from "../TodoContent/TodoContent";
+import TodoDate from "../TodoDate/TodoDate";
 import './Todo.module.css'
 
 const dummyData = [

@@ -34,4 +34,5 @@ li {
 
 .checkbox-round:checked {
     background-color: #3adfa2;
+    border-color: #1daf7a;
 }

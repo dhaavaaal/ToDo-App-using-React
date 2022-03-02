@@ -1,5 +1,4 @@
-.add-button{
-    margin: auto;
+.add-button {
     border: none;
     background-color: #3adfa2;
     color: #54575f;
@@ -7,4 +6,10 @@
     width: 40px;
     border-radius: 50%;
     position: absolute;
+    bottom: -6.2%;
+    left: 39%;
+}
+.add-button:hover {
+    background-color: #1daf7a;
+    cursor: pointer;
 }
