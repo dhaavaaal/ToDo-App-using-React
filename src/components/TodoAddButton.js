@@ -1,5 +1,8 @@
+import styles from './TodoAddButton.module.css'
 function TodoAddButton() {
-    return <h1>hey</h1>
+    return (
+        <button className={styles['add-button']}>+</button>
+    )
 }
 
 export default TodoAddButton;

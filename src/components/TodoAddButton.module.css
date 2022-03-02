@@ -1,0 +1,10 @@
+.add-button{
+    margin: auto;
+    border: none;
+    background-color: #3adfa2;
+    color: #54575f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
