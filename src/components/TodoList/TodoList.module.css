@@ -1,0 +1,32 @@
+li {
+  list-style-type: none;
+  font-size: 0.5em;
+  color: #54575f;
+}
+.listitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+.data {
+  align-items: center;
+}
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  align-items: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid #e4e5e7;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: #3adfa2;
+  border-color: #1daf7a;
+}

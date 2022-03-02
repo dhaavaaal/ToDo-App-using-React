@@ -1,0 +1,16 @@
+ul {
+  padding-inline-start: 0;
+  margin: auto;
+}
+.todocontentcontainer {
+  height: 218px;
+  width: 80%;
+  min-width: 140px;
+  overflow-y: scroll;
+  text-align: left;
+  padding: auto;
+}
+.todocontentcontainer::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
