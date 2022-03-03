@@ -3,12 +3,6 @@ li {
     font-size: 0.5em;
     color: #54575f;
 }
-/* .list {
-    padding: 0px 0px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
 .listitems {
     display: flex;
     justify-content: space-between;
