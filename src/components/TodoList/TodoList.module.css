@@ -1,4 +1,5 @@
 li {
+<<<<<<< HEAD
   list-style-type: none;
   font-size: 0.5em;
   color: #54575f;
@@ -30,3 +31,42 @@ li {
   background-color: #3adfa2;
   border-color: #1daf7a;
 }
+=======
+    list-style-type: none;
+    font-size: 0.5em;
+    color: #54575f;
+}
+/* .list {
+    padding: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+.listitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+.data {
+    align-items: center;
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #e4e5e7;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #3adfa2;
+    border-color: #1daf7a;
+}
+>>>>>>> c52e750da0a637e2b2d27a0f5f508d0b84d6b97c
